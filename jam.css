@@ -1,0 +1,125 @@
+
+body
+{
+background-image: url("plan.jpg");
+
+background-position: top right;
+}
+
+nav
+{
+display: inline-block;
+width: 740px;
+text-align: right;
+}
+nav ul
+{
+list-style-type: none;
+}
+nav li
+{
+display: inline-block;
+margin-right: 15px;
+}
+
+#banniere_image
+{
+margin-top: 15px;
+height: 200px;
+border-radius: 5px;
+background: url('neige.jpg') no-repeat;
+position: relative;
+box-shadow: 0px 4px 4px #1c1a19;
+margin-bottom: 25px;
+}
+#banniere_description
+{
+position: absolute;
+bottom: 0;
+border-radius: 0px 0px 5px 5px;
+width: 99.5%;
+height: 33px;
+padding-top: 15px;
+padding-left: 4px;
+background-color: rgb(24,24,24); /* Pour les anciens navigateurs
+*/
+background-color: rgba(24,24,24,0.8);
+color: white;
+font-size: 0.8em;
+}
+.bouton_rouge
+{
+display: inline-block;
+height: 25px;
+position: absolute;
+right: 5px;
+bottom: 5px;
+background: url('bouton.png') repeat-x;
+border: 1px solid #760001;
+border-radius: 5px;
+font-size: 1.2em;
+text-align: center;
+padding: 3px 8px 0px 8px;
+color: white;
+text-decoration: none;
+}
+.bouton_rouge img
+{
+border: 0;
+}
+
+
+
+.title{
+opacity: 1;
+text-align: center;
+text-decoration: underline;
+font-weight: bold;
+font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
+}
+ul{
+font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
+}
+
+
+h2{
+color: red;
+text-decoration: blink;
+font-style: italic;
+text-align: justify;
+
+}
+td /* Toutes les cellules des tableaux... */
+{
+border: 1px solid black; /* auront une bordure de 1px */
+}
+
+.first{
+width: 50%;
+min-width: 400px;
+border-right: 2px solid black;
+box-shadow: 6px 6px 6px black;
+font-size: 18px; 
+font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
+}
+
+p{
+
+font-size: 20px; 
+font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
+}
+
+h1
+{
+color: fuchsia;
+font-size: 40px; 
+}
+
+.commande
+{
+text-align: justify;
+color: rgb(240,96,204);
+font-size: 20px; 
+}
+
+
